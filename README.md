@@ -13,7 +13,7 @@ Large buildings in Manhattan have their own zip code. Zip code mapping is done t
 Zip codes are aggregated into neighbourhoods. The resulting data frame is exported as “data_part_clean4.csv”
 
 ## Appendix C: Modelling and Forecasting
-“Final_Code.ipynb” loads “data_part_clean4.csv”. Additional information for dynamic population density is required from the corresponding GitHub repository (https://github.com/citrusvanilla/manhattanpopulationexplorer). A modified version that maps the original zones to the required neighborhoods and zipcodes is named "density_reference4.csv". 
+“Final_Code.ipynb” loads “data_part_clean4.csv”. Additional information for dynamic population density is required from the corresponding GitHub repository (https://github.com/citrusvanilla/manhattanpopulationexplorer). A modified version that maps the original zones to the required neighborhoods and zip codes is named "density_reference4.csv". 
 
 Features are extracted from date-time. Columns for hour, weekday and month undergo cyclical encoding. Population density is merged into the data frame. Lag is introduced, lag mean for MEDIC method is built. 
 Forecasting is done for all combinations and all models. Each aggregation grouping is individually exported as result file.
