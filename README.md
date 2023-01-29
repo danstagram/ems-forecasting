@@ -1,6 +1,6 @@
 # ems-forecasting
 
-This repository is an appendix to the master's thesis. It contains the code that was used in the writing of the data.
+This repository is an appendix to the master's thesis. It contains the code that was produced when working with the data.
 
 ## Appendix A: Dataset Preparation
 The original dataset is available from this link: https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj
